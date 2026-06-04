@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(227, 225, 225);
+}
+
+#main-body-container{
+    background-color: rgb(255, 255, 255);
+    margin: 5%;
+    border-radius: 10px;
+    
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+#left-nav-block{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.right-nav-block{
+    border-radius: 10px;
+    background-color: rgb(55, 137, 208);
+    
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    padding: 7px;
+}
+
+#Hero-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("Ass-1-hero-backgground.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading{
+
+}
+
+.heading1{
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#email-container{
+    display: flex;
+    justify-content: center;
+    padding-top:50px ;
+}
+
+#Email-box{
+    border-radius: 3px;
+    width: 370px;
+    border: 2px solid aliceblue;
+}
+
+#signup{
+    
+    background-color: rgb(55, 137, 208);
+    border-radius:3px ;
+    margin-left: 0px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    padding: 7px;
+}
+
+#cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+}
+
+.card-heading{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-description{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+i{
+    color: rgb(69, 115, 255);
+    font-size: 30px;
+}
